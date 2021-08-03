@@ -1,0 +1,60 @@
+.App{
+font-family: Arial, Helvetica, sans-serif;
+width: 1340px;
+
+}
+
+.image{
+    height: 400px;
+    background-image: url('covidpic.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 16px;
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-bottom: 60px;
+  }
+
+  .title{
+    color: whitesmoke;
+    padding-left: 20px;
+    margin-top: 4px;
+  }
+  
+  .total_infected,
+  .total_recovering,
+  .total_population,
+  .total_death,
+  .active_cases{
+  height: 170px;
+  width: 320px;
+  border: 2px;
+  border-color: rgb(107, 103, 103);
+  border-style: solid;
+  margin-right: 30px;
+  text-align: center; 
+  
+  }
+
+  .statistics{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-left: 30px;
+    }
+
+  
+.total_death,
+.active_cases{
+  margin-top: 100px;
+}  
+
+.total_infected,
+.total_recovering,
+.total_population{
+  margin-top: 40px;
+}
+
+
+

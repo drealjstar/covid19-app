@@ -1,0 +1,12 @@
+.end_bar{
+    height: 80px;
+    background-color: rgb(17, 16, 16);
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    
+    }
+
+    h3{
+        padding-top: 10px;
+    }

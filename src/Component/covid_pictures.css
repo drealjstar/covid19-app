@@ -1,0 +1,21 @@
+.photo{
+    height: 240px;
+    width : 380px;
+    margin-top : 100px;
+    border-top-right-radius: 80px;
+    border-bottom-left-radius: 80px;
+}
+
+.covid_pictures{
+    display : flex;
+    flex-wrap : wrap;
+    justify-content: space-evenly;
+    margin-bottom : 80px;
+    }
+
+.image2{
+    height: 240px;
+    width: 380px;
+    border-bottom-left-radius: 80px; 
+    border-top-right-radius: 80px;
+}

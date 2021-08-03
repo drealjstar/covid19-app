@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Axios from "axios";
 import "./stat.css";
+import Album from "./covid_pictures";
 
 class Stat extends Component {
   state = {
@@ -16,7 +17,6 @@ class Stat extends Component {
       this.setState({ stat: result.data[73] });
     });
   }
-
 
   render() {
 
@@ -52,8 +52,8 @@ class Stat extends Component {
             <h2>ACTIVE CASES</h2>
             <div className="active"><h1>{this.state.stat.active}</h1></div>
           </div>
-
         </div>
+        <Album />
       </div>
     );
   }

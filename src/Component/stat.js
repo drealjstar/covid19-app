@@ -3,6 +3,7 @@ import Axios from "axios";
 import "./stat.css";
 import Album from "./covid_pictures";
 
+
 class Stat extends Component {
   state = {
 
@@ -54,6 +55,7 @@ class Stat extends Component {
           </div>
         </div>
         <Album />
+
       </div>
     );
   }

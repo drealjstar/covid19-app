@@ -1,0 +1,17 @@
+.policy{
+    height: 40px;
+    background-color: rgb(17, 16, 16);
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 25px;
+}
+
+
+.stat4,
+.contact5,
+.about5,
+.directory5{
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}

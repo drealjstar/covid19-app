@@ -1,0 +1,17 @@
+.directory{
+    height: 40px;
+    background-color: rgb(17, 16, 16);
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 25px;
+}
+
+.stat5,
+.contact6,
+.about6,
+.policy6
+{
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}

@@ -1,7 +1,7 @@
 
 .image{
     height: 400px;
-    background-image: url('covidpic.jpg');
+    background-image: url('./Photo/covidpic.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;

@@ -1,26 +1,24 @@
 import React, { Component } from "react";
-import "./endbar.css";
 import { Link } from "react-router-dom";
+import "./contact.css";
 
-
-class Endbar extends Component {
+class Contact extends Component {
     render() {
         return (
-            <div className="end_bar">
-
-                <Link to="/contact" className="contact2">
-                    <p className="con">CONTACT</p>
+            <div className="contact">
+                <Link to="/" className="stat2">
+                    <p className="stat">HOME</p>
                 </Link>
 
-                <Link to="/about" className="about2">
+                <Link to="/about" className="about3">
                     <p className="abo">ABOUT</p>
                 </Link>
 
-                <Link to="/policy" className="policy2">
+                <Link to="/policy" className="policy3">
                     <p className="pol">POLICY</p>
                 </Link>
 
-                <Link to="/directory" className="directory2">
+                <Link to="/directory" className="directory3">
                     <p className="dir">DIRECTORY</p>
                 </Link>
 
@@ -29,5 +27,4 @@ class Endbar extends Component {
     }
 }
 
-
-export default Endbar;
+export default Contact;

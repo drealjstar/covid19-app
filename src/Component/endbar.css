@@ -1,12 +1,20 @@
 .end_bar{
     height: 80px;
     background-color: rgb(17, 16, 16);
-    color: white;
     display: flex;
-    justify-content: space-evenly;
+    justify-content:start;
     
     }
 
-    h3{
-        padding-top: 10px;
+    .contact2,
+    .about2,
+    .policy2,
+    .directory2{
+    padding-top: 10px;
+    margin-left: 15px;
+    font-size: small;
+    color: white;
     }
+
+
+    

@@ -20,8 +20,8 @@ class Endbar extends Component {
                     <p className="pol">POLICY</p>
                 </Link>
 
-                <Link to="/directory" className="directory2">
-                    <p className="dir">DIRECTORY</p>
+                <Link to="/services" className="services2">
+                    <p className="ser">SERVICES</p>
                 </Link>
 
             </div>

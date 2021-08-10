@@ -4,7 +4,7 @@ import Stat from "./Component/stat";
 import Contact from "./Component/contact";
 import About from "./Component/about";
 import Policy from "./Component/policy";
-import Directory from "./Component/directory";
+import Services from "./Component/services";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 
 
@@ -30,8 +30,8 @@ function App() {
             <Policy />
           </Route>
 
-          <Route exact path="/directory">
-            <Directory />
+          <Route exact path="/services">
+            <Services />
           </Route>
 
         </Switch>

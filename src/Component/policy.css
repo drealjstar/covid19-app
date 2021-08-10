@@ -10,8 +10,25 @@
 .stat4,
 .contact5,
 .about5,
-.directory5{
+.services5{
     color: white;
     text-decoration: none;
     font-weight: 600;
 }
+
+.policy_head{
+    padding-left: 20px;
+    padding-top: 10px;
+    margin-bottom: -16px;
+}
+
+.policy_intro,
+.responsibility,
+.data_collection,
+.data_usage{
+    padding-top: 1px;
+    padding-left: 20px;
+    font-size: medium;
+    font-weight: 300;
+}
+

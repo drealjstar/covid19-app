@@ -1,4 +1,4 @@
-.about{
+.about_link{
     height: 40px;
     background-color: rgb(17, 16, 16);
     display: flex;
@@ -9,8 +9,17 @@
 .stat3,
 .contact4,
 .policy4,
-.directory4{
+.services4{
     color: white;
     text-decoration: none;
     font-weight: 600;
+}
+
+.intro,
+.vision,
+.mission{
+padding-top: 20px;
+padding-left: 20px;
+font-size: medium;
+font-weight: 400;
 }

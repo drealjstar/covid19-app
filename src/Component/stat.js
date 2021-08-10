@@ -27,10 +27,10 @@ class Stat extends Component {
       <div className="home_page">
 
         <div className="image">
-        <div className="title_wrapper">
-        <h1 className="title">NIGERIA CORONAVIRUS UPDATE</h1>
-        <h1 className="company_name">DHC</h1>
-        </div>
+          <div className="title_wrapper">
+            <h1 className="title">NIGERIA CORONAVIRUS UPDATE</h1>
+            <h1 className="company_name">DHC</h1>
+          </div>
         </div>
 
         <div className="statistics" >

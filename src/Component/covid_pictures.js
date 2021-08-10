@@ -51,10 +51,10 @@ class Album extends Component {
                         )
                     })}
                 </div>
-               
-         
-            
-          
+
+
+
+
 
 
                 <Endbar />

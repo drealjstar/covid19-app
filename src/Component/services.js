@@ -1,10 +1,27 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import "./services.css";
+import c8 from "./Photo/covidpic10.jpg";
+import c9 from "./Photo/covidpic11.jpg";
+
 
 class Services extends Component {
+    state= {
+        album2 : [
+            {
+            album_photo2 : c8
+            },
+            {
+                album_photo2 : c9
+            }
+        ]
+    }
+
     render() {
-        return (
+
+    const {album2} = this.state;
+
+    return (
             <div>
             <div className="services">
                 <Link to="/" className="stat5">
@@ -37,6 +54,19 @@ class Services extends Component {
                 <p>become professionals, And work with communities and government who needed their services.</p>
                 <p>We render health services for the purpose of giving health support for the community people.</p>
                 </div>
+                  
+                <div className="services_photos">
+                  {album2.map((photo2, i)=>{
+                      return(
+                          <div className="photo2" key= {i}>
+                        <img src={photo2.album_photo2}  alt="NO"  className="image3" />
+
+                          </div>
+                      )
+                  })}
+                  
+                </div>
+
                  
                 </div>
             </div>

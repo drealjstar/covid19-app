@@ -3,7 +3,7 @@
     background-color: rgb(17, 16, 16);
     display: flex;
     justify-content: space-evenly;
-    margin-top: 25px;
+     margin-top: 25px;
 }
 
 .stat5,
@@ -29,4 +29,31 @@
     font-size: medium;
     font-weight: 400;
 }
+
+.services_photos{
+    display : flex;
+    flex-wrap : wrap;
+    margin-bottom : 80px;
+    justify-content: start;
+    margin-left: -32px
+}
+
+.image3{
+    height: 300px;
+    width: 400px;
+    border-radius : 14px;
+    margin-left : 60px;
+    margin-top : 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
 

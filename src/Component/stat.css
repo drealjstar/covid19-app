@@ -1,4 +1,3 @@
-
 .image{
     height: 400px;
     background-image: url('./Photo/covidpic.jpg');
@@ -12,7 +11,19 @@
     margin-bottom: 60px;
     }
 
-  .title{
+   .title_wrapper{
+     display: flex;
+     justify-content: space-between;
+   }
+
+   .company_name{
+     font-style: italic;
+     color : rgb(241, 88, 28);
+     margin-top : -1px;
+     padding-right : 50px;
+   }
+
+ .title{
     color: whitesmoke;
     padding-left: 20px;
     margin-top: 4px;
@@ -40,7 +51,6 @@
     margin-left: 30px;
     }
 
-  
 .total_death,
 .active_cases{
   margin-top: 100px;
